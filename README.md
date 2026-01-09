@@ -4,7 +4,20 @@
 
 ## Overview
 
-This repository is part of the ShareBridge project - a platform for dignified charitable giving.
+This repository contains **Infrastructure as Code (IaC)** - automated infrastructure provisioning and management for ShareBridge.
+
+**Key Responsibilities:**
+- ☁️ Cloud infrastructure provisioning (AWS/Azure/GCP)
+- 🐳 Container orchestration setup (Kubernetes/EKS)
+- 🗄️ Database infrastructure (PostgreSQL, Redis, MongoDB)
+- 🌐 Networking and VPC configuration
+- 🔐 Security groups, IAM roles, and policies
+- 📊 Monitoring infrastructure (Prometheus, Grafana, ELK)
+- 🔄 Environment management (dev, staging, production)
+- 💰 Cost optimization and resource tagging
+- 🛡️ Disaster recovery and backup automation
+
+**Technology Stack:** Terraform or AWS CloudFormation, Kubernetes manifests, Helm charts
 
 For overall project context, see the [main ShareBridge repository](https://github.com/sharebridge/sharebridge).
 
